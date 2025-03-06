@@ -4,65 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ pro makléře</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #FFA500; /* Oranžová barva */
-            color: #333;
-            margin: 0;
-            padding: 20px;
-            text-align: center;
-        }
-        .header {
-            background-color: white;
-            padding: 10px;
-            border-radius: 10px;
-            display: inline-block;
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
-        .faq {
-            text-align: left;
-        }
-        .question {
-            background-color: #FF8C00; /* Sytější oranžová */
-            color: white;
-            padding: 15px;
-            border-radius: 5px;
-            font-weight: bold;
-            cursor: pointer;
-            margin-top: 10px;
-        }
-        .answer {
-            display: none;
-            padding: 15px;
-            background: white;
-            border-radius: 5px;
-            margin-top: 5px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">FAQ pro makléře</div>
-        <div class="faq">
-            <div class="question">Co je tato služba?</div>
-            <div class="answer">Služba je určena k podpoře makléřů v oblasti pojištění a finančního poradenství.</div>
-            
-            <div class="question">Jaké jsou hlavní výhody této služby?</div>
-            <div class="answer">Hlavní výhody zahrnují flexibilitu, úsporu času a profesionální podporu.</div>
-            
-            <div class="question">Jak mohu kontaktovat podporu?</div>
-            <div class="answer">Podporu můžete kontaktovat emailem nebo telefonicky dle uvedených kontaktů.</div>
-        </div>
+    <div class="faq-header-container">
+        <img src="logo.png" alt="Logo" class="logo">
+        <div class="faq-header">FAQ pro makléře</div>
     </div>
 
-    <script>
-        document.querySelectorAll('.question').forEach(item => {
-            item.addEvent
+    <div id="faq-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

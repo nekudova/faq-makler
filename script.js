@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", async function () {
     const faqContainer = document.getElementById("faq-container");
 
     const GITHUB_USERNAME = "nekudova"; 
-    const GITHUB_REPO = "faq-edok---app"; 
-    const GITHUB_FILE_PATH = "questions.json"; 
+    const GITHUB_REPO = "faq-makler"; // Nový repozitář
+    const GITHUB_FILE_PATH = "questions.json"; // Soubor s otázkami
 
     let questions = [];
 
@@ -30,7 +30,8 @@ document.addEventListener("DOMContentLoaded", async function () {
 
             const answerElement = document.createElement("div");
             answerElement.classList.add("faq-answer");
-            answerElement.textContent = item.answer;
+            answerElement.innerHTML = item.answer.replace(/\n/g, "<br>"); // Podpora nových řádků
+
             answerElement.style.display = "none";
 
             questionElement.addEventListener("click", function () {

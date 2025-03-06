@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ pro makléře</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFA500; /* Oranžová barva */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .faq {
+            margin-top: 20px;
+        }
+        .question {
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .answer {
+            display: none;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>FAQ pro makléře</h1>
+        <div class="faq">
+            <div class="question">1. Jaké jsou hlavní výhody této služby?</div>
+            <div class="answer">Hlavní výhody zahrnují flexibilitu, úsporu času a profesionální podporu.</div>
+            
+            <div class="question">2. Jak mohu kontaktovat podporu?</div>
+            <div class="answer">Podporu můžete kontaktovat emailem nebo telefonicky dle uvedených kontaktů.</div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.question').forEach(item => {
+            item.addEventListener('click', () => {
+                let answer = item.nextElementSibling;
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>

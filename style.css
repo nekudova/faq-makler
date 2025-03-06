@@ -18,14 +18,14 @@ body {
 
 /* Logo */
 .logo {
-    width: 200px; /* Zvětšení loga */
+    width: 200px; /* Velikost loga */
     height: auto;
 }
 
 /* Nadpis */
 .faq-header {
-    background-color: #FF9800; /* Oranžová */
-    color: #007A78; /* Petrolejový text */
+    background-color: #FFA500; /* Oranžová barva */
+    color: white; /* Bílý text */
     font-size: 28px;
     font-weight: bold;
     padding: 20px;
@@ -34,9 +34,9 @@ body {
     max-width: 600px;
 }
 
-/* Otázky - petrolejový rámeček */
+/* Otázky - oranžový rámeček */
 .faq-item {
-    background: #007A78; /* Petrolejová barva */
+    background: #FF8C00; /* Sytější oranžová */
     margin: 15px auto;
     padding: 20px;
     border-radius: 8px;
@@ -52,85 +52,12 @@ body {
     font-weight: bold;
     color: white;
     font-size: 22px;
+    cursor: pointer;
 }
 
 /* Odpověď - černý text na bílém pozadí */
 .faq-answer {
     display: none;
     padding: 15px;
-    color: black;
-    font-size: 20px;
-    background-color: white;
-    border-radius: 5px;
-    margin-top: 10px;
-}
+    color:
 
-/* Skrytí administrátorské sekce při načtení stránky */
-#admin-section {
-    display: none;
-}
-
-/* Formulář pro přidání nové otázky - lepší zarovnání */
-#new-question, #new-answer {
-    width: 250px;
-    padding: 8px;
-    margin: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-}
-
-/* Tlačítko Přidat - lepší styl */
-#add-question-btn {
-    background-color: #FF9800;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s ease;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-}
-
-/* Zvětšení ikony v tlačítku */
-#add-question-btn::before {
-    content: "➕";
-    font-size: 18px;
-}
-
-/* Zarovnání tlačítek přihlášení a odhlášení */
-.login-btn, .logout-btn {
-    display: block;
-    width: 150px;
-    margin: 10px auto;
-    text-align: center;
-}
-
-/* Responzivní úpravy pro mobilní zařízení */
-@media (max-width: 768px) {
-    .faq-header-container {
-        flex-direction: column; /* Na mobilu bude logo nad nadpisem */
-        text-align: center;
-    }
-
-    .logo {
-        width: 450px; /* Větší logo na mobilu */
-    }
-
-    .faq-header {
-        font-size: 24px;
-        width: 90%;
-        padding: 18px;
-    }
-
-    .faq-question {
-        font-size: 20px;
-    }
-
-    .faq-answer {
-        font-size: 18px;
-    }
-}

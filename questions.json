@@ -12,24 +12,42 @@
         "answer": "Napište nám na e-mail: backoffice@astorieas.cz."
     },
     {
-        "question": "Co nesmí v ZZJ chybět?",
-        "answer": "1) Identifikace klienta\n2) Definice požadavků, potřeb a cílů\n3) Jasné odůvodnění doporučeného produktu\n4) Specifikace sjednaného produktu\n5) Upozornění na nesrovnalosti\n6) Důvody, na kterých zakládá VZ svá doporučení"
+        "question": "Jaká je odpovědnost pojišťovacího makléře?",
+        "answer": "Makléř je odpovědný za odborné poradenství a správný výběr pojištění odpovídající potřebám klienta. Musí jednat s odbornou péčí a v souladu s právními předpisy. Pokud by způsobil klientovi škodu nesprávným doporučením, může za ni nést odpovědnost."
     },
     {
-        "question": "PS sepsaná dle požadavků a potřeb klientky.",
-        "answer": "Pojistná smlouva byla sestavena podle požadavků klientky uvedených v tabulce záznamu z jednání.\n\nDoporučení vycházelo z jejích priorit, které zahrnovaly [např. zajištění hypotéky, dlouhodobé spoření apod.].\n\nNa základě porovnání dostupných možností byl doporučen produkt, který splňuje tyto požadavky a zajišťuje [hlavní výhody sjednaného produktu].\n\nKlientka byla seznámena s důvody výběru i odmítnutí jiných alternativ."
+        "question": "Jaký je rozdíl mezi pojišťovacím makléřem a pojišťovacím agentem?",
+        "answer": "Makléř je nezávislý a zastupuje klienta vůči pojišťovnám, zatímco pojišťovací agent pracuje pro konkrétní pojišťovnu a nabízí pouze její produkty."
     },
     {
-        "question": "Odpovídá vybraný produkt požadavkům klienta?",
-        "answer": "Doporučený produkt odpovídá požadavkům a cílům klienta zaznamenaným v tabulce záznamu z jednání.\n\nKlient požadoval [hlavní požadavek, např. krytí hypotéky], doporučili jsme variantu s [komplexní krytí, nejlepší poměr cena/výkon, širší spektrum připojištění], a nakonec byla sjednána možnost s [konkrétní parametry sjednaného produktu]."
+        "question": "Může pojišťovací makléř jednat bez vědomí klienta?",
+        "answer": "Ne, makléř musí mít k zastupování klienta písemné zmocnění nebo smlouvu o zprostředkování pojištění. Nemůže uzavírat pojistné smlouvy bez souhlasu klienta."
     },
     {
-        "question": "Jaké alternativy byly klientovi vysvětleny?",
-        "answer": "Produkt byl doporučen na základě klientových požadavků, které jsou uvedeny v tabulce záznamu z jednání.\n\nKlient požadoval [hlavní požadavek], porovnali jsme více variant a doporučili tu, která nejlépe odpovídala jeho potřebám.\n\nDůvodem výběru byla [hlavní výhoda produktu, např. komplexní krytí, nejlepší poměr cena/výkon, širší spektrum připojištění]."
+        "question": "Jak dlouho trvá spolupráce s pojišťovacím makléřem?",
+        "answer": "Délka spolupráce záleží na dohodě mezi makléřem a klientem. Může být jednorázová (např. výběr pojištění) nebo dlouhodobá, kdy makléř spravuje a optimalizuje klientova pojištění."
     },
-    {
-        "question": "Pokrývá tento produkt všechny důležité situace?",
-        "answer": "Produkt zahrnuje pojistné krytí pro situace, které klient označil za prioritní, tedy [např. invalidita, smrt, pracovní neschopnost].\n\nNa základě porovnání dostupných možností byl doporučen produkt, který splňuje tyto požadavky a zajišťuje [hlavní výhody sjednaného produktu]."
+    
+        {
+  "question": "Jaké služby poskytuje pojišťovací makléř?",
+  "answer": "<p>Pojišťovací makléř nabízí široké spektrum služeb souvisejících s pojištěním a řízením rizik. Jeho hlavní úlohou je zastupovat zájmy klienta a pomáhat mu s výběrem nejvhodnějšího pojištění. Mezi klíčové služby patří:</p> \
+  <h3>Analýza rizik</h3> \
+  <p>Makléř provádí podrobnou analýzu klientových potřeb a možných rizik, která by mohla ovlivnit jeho majetek, podnikání nebo osobní situaci. Posuzuje, jaká pojistná ochrana je vhodná pro konkrétní situaci a upozorňuje na potenciální nedostatky v současném pojištění.</p> \
+  <h3>Výběr nejvhodnějšího pojištění</h3> \
+  <p>Na základě analýzy rizik makléř porovnává nabídky různých pojišťoven a doporučuje klientovi nejvýhodnější varianty. Sleduje nejen cenu pojištění, ale i rozsah krytí, výluky a kvalitu služeb dané pojišťovny.</p> \
+  <h3>Sjednání pojistných smluv</h3> \
+  <p>Makléř pomáhá klientovi s administrativou spojenou s uzavřením pojištění, aby smlouva odpovídala jeho skutečným potřebám. Zajišťuje, aby smluvní podmínky byly správně nastaveny a klient rozuměl všem důležitým ustanovením.</p> \
+  <h3>Správa a aktualizace pojištění</h3> \
+  <p>Pojišťovací makléř sleduje, zda sjednané pojištění stále odpovídá potřebám klienta a zda neexistují výhodnější alternativy. Pravidelně kontroluje, zda jsou pojistné smlouvy aktuální a zda odpovídají změnám v klientově situaci nebo na trhu.</p> \
+  <h3>Asistence při pojistných událostech</h3> \
+  <p>V případě škody makléř pomáhá klientovi s hlášením pojistné události a zajišťuje, aby pojistné plnění bylo vyplaceno v souladu se smlouvou. Komunikuje s pojišťovnou, shromažďuje potřebné dokumenty a zastupuje klienta při vyjednávání o odškodnění.</p> \
+  <h3>Poradenství v oblasti pojištění a rizikového managementu</h3> \
+  <p>Klient může konzultovat s makléřem jakékoli otázky týkající se pojištění, například změny v pojistných podmínkách, optimalizaci pojistného krytí nebo prevenci rizik. Makléř poskytuje doporučení, jak snížit pravděpodobnost škod a jak se správně chránit proti nečekaným událostem.</p> \
+  <h3>Zastupování klienta vůči pojišťovnám</h3> \
+  <p>Makléř jedná v zájmu klienta a pomáhá mu vyjednat co nejvýhodnější podmínky pojištění. Chrání klienta před nevýhodnými smluvními podmínkami a dbá na to, aby jeho práva byla dodržena.</p> \
+  <h3>Školení a vzdělávání v oblasti pojištění</h3> \
+  <p>Makléř může poskytovat školení a semináře o pojištění pro firmy nebo jednotlivce, aby lépe rozuměli svým pojistným smlouvám a věděli, jak správně postupovat v případě pojistné události.</p> \
+  <p>Tyto služby pomáhají klientovi minimalizovat rizika, optimalizovat pojistné náklady a zajistit efektivní správu pojištění.</p>"
     },
     {
         "question": "Proč je tento produkt vhodný pro spoření i pojištění?",

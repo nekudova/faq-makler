@@ -9,7 +9,7 @@
     },
     {
         "question": "Jak mohu kontaktovat podporu?",
-        "answer": "Napište nám na e-mail: backoffice@astorieas.cz."
+        "answer": "Napište nám na e-mail: <a href='mailto:backoffice@astorieas.cz'>backoffice@astorieas.cz</a>."
     },
     {
         "question": "Jaká je odpovědnost pojišťovacího makléře?",
@@ -27,27 +27,18 @@
         "question": "Jak dlouho trvá spolupráce s pojišťovacím makléřem?",
         "answer": "Délka spolupráce záleží na dohodě mezi makléřem a klientem. Může být jednorázová (např. výběr pojištění) nebo dlouhodobá, kdy makléř spravuje a optimalizuje klientova pojištění."
     },
-    
-        {
-  "question": "Jaké služby poskytuje pojišťovací makléř?",
-  "answer": "<p>Pojišťovací makléř nabízí široké spektrum služeb souvisejících s pojištěním a řízením rizik. Jeho hlavní úlohou je zastupovat zájmy klienta a pomáhat mu s výběrem nejvhodnějšího pojištění. Mezi klíčové služby patří:</p> \
-  <h3>Analýza rizik</h3> \
-  <p>Makléř provádí podrobnou analýzu klientových potřeb a možných rizik, která by mohla ovlivnit jeho majetek, podnikání nebo osobní situaci. Posuzuje, jaká pojistná ochrana je vhodná pro konkrétní situaci a upozorňuje na potenciální nedostatky v současném pojištění.</p> \
-  <h3>Výběr nejvhodnějšího pojištění</h3> \
-  <p>Na základě analýzy rizik makléř porovnává nabídky různých pojišťoven a doporučuje klientovi nejvýhodnější varianty. Sleduje nejen cenu pojištění, ale i rozsah krytí, výluky a kvalitu služeb dané pojišťovny.</p> \
-  <h3>Sjednání pojistných smluv</h3> \
-  <p>Makléř pomáhá klientovi s administrativou spojenou s uzavřením pojištění, aby smlouva odpovídala jeho skutečným potřebám. Zajišťuje, aby smluvní podmínky byly správně nastaveny a klient rozuměl všem důležitým ustanovením.</p> \
-  <h3>Správa a aktualizace pojištění</h3> \
-  <p>Pojišťovací makléř sleduje, zda sjednané pojištění stále odpovídá potřebám klienta a zda neexistují výhodnější alternativy. Pravidelně kontroluje, zda jsou pojistné smlouvy aktuální a zda odpovídají změnám v klientově situaci nebo na trhu.</p> \
-  <h3>Asistence při pojistných událostech</h3> \
-  <p>V případě škody makléř pomáhá klientovi s hlášením pojistné události a zajišťuje, aby pojistné plnění bylo vyplaceno v souladu se smlouvou. Komunikuje s pojišťovnou, shromažďuje potřebné dokumenty a zastupuje klienta při vyjednávání o odškodnění.</p> \
-  <h3>Poradenství v oblasti pojištění a rizikového managementu</h3> \
-  <p>Klient může konzultovat s makléřem jakékoli otázky týkající se pojištění, například změny v pojistných podmínkách, optimalizaci pojistného krytí nebo prevenci rizik. Makléř poskytuje doporučení, jak snížit pravděpodobnost škod a jak se správně chránit proti nečekaným událostem.</p> \
-  <h3>Zastupování klienta vůči pojišťovnám</h3> \
-  <p>Makléř jedná v zájmu klienta a pomáhá mu vyjednat co nejvýhodnější podmínky pojištění. Chrání klienta před nevýhodnými smluvními podmínkami a dbá na to, aby jeho práva byla dodržena.</p> \
-  <h3>Školení a vzdělávání v oblasti pojištění</h3> \
-  <p>Makléř může poskytovat školení a semináře o pojištění pro firmy nebo jednotlivce, aby lépe rozuměli svým pojistným smlouvám a věděli, jak správně postupovat v případě pojistné události.</p> \
-  <p>Tyto služby pomáhají klientovi minimalizovat rizika, optimalizovat pojistné náklady a zajistit efektivní správu pojištění.</p>"
+    {
+        "question": "Jaké služby poskytuje pojišťovací makléř?",
+        "answer": "<p>Pojišťovací makléř nabízí široké spektrum služeb souvisejících s pojištěním a řízením rizik. Jeho hlavní úlohou je zastupovat zájmy klienta a pomáhat mu s výběrem nejvhodnějšího pojištění.</p>
+        <ul>
+            <li><b>Analýza rizik:</b> Posouzení potřeb klienta a identifikace možných rizik.</li>
+            <li><b>Výběr nejvhodnějšího pojištění:</b> Porovnání nabídek různých pojišťoven.</li>
+            <li><b>Sjednání pojistných smluv:</b> Pomoc s administrativou a správným nastavením pojistky.</li>
+            <li><b>Správa a aktualizace pojištění:</b> Kontrola platnosti a výhodnosti sjednaných pojistek.</li>
+            <li><b>Asistence při pojistných událostech:</b> Pomoc s hlášením škod a komunikací s pojišťovnou.</li>
+            <li><b>Poradenství:</b> Konzultace v oblasti pojištění a rizikového managementu.</li>
+        </ul>
+        "
     },
     {
         "question": "Proč je tento produkt vhodný pro spoření i pojištění?",

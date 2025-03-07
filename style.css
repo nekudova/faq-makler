@@ -8,23 +8,20 @@ body {
 }
 
 /* Kontejner pro logo a nadpis */
-.faq-header {
-    background-color: #007A78; /* Petrolejová barva */
-    color: white;
-    font-size: 28px;
-    font-weight: bold;
-    padding: 20px 40px; /* Zvýšení paddingu pro širší tlačítko */
-    border-radius: 10px;
-    display: inline-block;
-    width: auto; /* Automatická šířka podle textu */
-    min-width: 300px; /* Zajištění dostatečné délky */
-    text-align: center;
+.faq-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Mezery mezi logem a nadpisem */
+    margin-top: 20px;
 }
 
 /* Logo */
 .logo {
     width: 150px; /* Nastavení velikosti loga */
     height: auto;
+    margin-right: 20px; /* Přidání mezery mezi logem a tlačítkem */
+    vertical-align: middle; /* Lepší zarovnání */
 }
 
 /* Nadpis */
@@ -33,10 +30,10 @@ body {
     color: white; /* Bílý text */
     font-size: 28px;
     font-weight: bold;
-    padding: 20px;
+    padding: 20px 50px; /* Větší šířka tlačítka */
     border-radius: 10px;
     display: inline-block;
-    max-width: 600px;
+    text-align: center;
 }
 
 /* Otázky - oranžový rámeček */
@@ -70,4 +67,26 @@ body {
     border-radius: 5px;
     margin-top: 10px;
 }
+
+/* Skrytí administrátorské sekce při načtení stránky */
+#admin-section {
+    display: none;
+}
+
+/* Formulář pro přidání nové otázky - lepší zarovnání */
+#new-question, #new-answer {
+    width: 250px;
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Tlačítko Přidat - lepší styl */
+#add-question-btn {
+    background-color: #FFA500; /* Oranžová */
+    color: white;
+    padding: 10px 15
+
 

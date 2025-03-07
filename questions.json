@@ -1,10 +1,10 @@
 [
     {
         "question": "Co je tato aplikace?",
-        "answer": "Jednoduchá FAQ aplikace pro ukázky, jak vhodně vyplňovat důvody, na kterých VZ zakládá svá doporučení."
+        "answer": "Jednoduchá FAQ aplikace pro často kladené otázky nebo oblasti, na které by si měl VZ dát při činnosti makléři pozor."
     },
     {
-        "question": "Jak správně formulovat důvody doporučení?",
+        "question": "Co je z pohledu zákona makléř?",
         "answer": "Správná struktura důvodů doporučení:    \n\n1) Požadavky klienta – co klient očekává a proč.    \n2) Doporučený produkt – proč odpovídá požadavkům.    \n3) Srovnání s alternativami – proč byly jiné varianty odmítnuty.\n4) Dopady sjednání – jak ovlivní finanční situaci klienta."
     },
     {

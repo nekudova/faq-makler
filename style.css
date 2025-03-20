@@ -11,7 +11,7 @@ body {
 .faq-header-container {
     display: flex;
     align-items: center;
-    justify-content: center; /* Vycentrování */
+    justify-content: center;
     flex-wrap: wrap;
     gap: 15px; /* Menší mezera mezi logem a nadpisem */
     margin-top: 20px;
@@ -19,11 +19,12 @@ body {
 
 /* Logo */
 .logo {
-    width: 250px; /* Přizpůsobení velikosti */
+    width: 180px; /* Přizpůsobení velikosti */
     height: auto;
     display: block;
-    margin: 0; /* Odstranění případného posunu */
+    margin: 0;
 }
+
 /* Nadpis */
 .faq-header {
     background-color: #007A78; /* Petrolejová barva */
@@ -111,15 +112,16 @@ body {
     text-align: center;
 }
 
-/* Responzivní úpravy pro mobilní zařízení */
+/* Responzivní úprava pro mobilní zařízení */
 @media (max-width: 768px) {
     .faq-header-container {
-        flex-direction: column;
+        flex-direction: column; /* Logo se na mobilu zobrazí nad FAQ tlačítkem */
         text-align: center;
     }
 
     .logo {
-        width: 120px; /* Menší logo na mobilních zařízeních */
+        width: 150px; /* Mírně menší logo na mobilu */
+        margin-bottom: 10px; /* Přidání mezery pod logem */
     }
 
     .faq-header {
@@ -136,3 +138,4 @@ body {
         font-size: 18px;
     }
 }
+

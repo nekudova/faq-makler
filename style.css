@@ -19,7 +19,7 @@ body {
 
 /* Logo */
 .logo {
-    width: 150px; /* Upravená velikost loga pro lepší vzhled */
+    width: 250px; /* Upravená velikost loga pro lepší vzhled */
     height: auto;
     display: block; /* Zajišťuje správné zarovnání */
 }

@@ -19,7 +19,7 @@ body {
 
 /* Logo */
 .logo {
-    width: 180px; /* Správná velikost loga */
+    width: 400px; /* Správná velikost loga */
     height: auto;
     display: block;
     margin-bottom: -10px; /* Posunutí dolů, aby bylo zarovnané s tlačítkem */

@@ -9,7 +9,7 @@
     },
     {
         "question": "Jak mohu kontaktovat podporu?",
-        "answer": "Napište nám na e-mail: <a href=\"mailto:backoffice@astorieas.cz\">backoffice@astorieas.cz</a>."
+        "answer": "Napište nám na e-mail: <a href='mailto:backoffice@astorieas.cz'>backoffice@astorieas.cz</a>."
     },
     {
         "question": "Jaká je odpovědnost pojišťovacího makléře?",
@@ -24,42 +24,15 @@
         "answer": "Ne, makléř musí mít k zastupování klienta písemné zmocnění nebo smlouvu o zprostředkování pojištění. Nemůže uzavírat pojistné smlouvy bez souhlasu klienta."
     },
     {
-        "question": "Jak dlouho trvá spolupráce s pojišťovacím makléřem?",
-        "answer": "Délka spolupráce záleží na dohodě mezi makléřem a klientem. Může být jednorázová (např. výběr pojištění) nebo dlouhodobá, kdy makléř spravuje a optimalizuje klientova pojištění."
-    },
-    {
         "question": "Jaké služby poskytuje pojišťovací makléř?",
-        "answer": "<p><b>Pojišťovací makléř nabízí široké spektrum služeb souvisejících s pojištěním a řízením rizik.</b> Jeho hlavní úlohou je zastupovat zájmy klienta a pomáhat mu s výběrem nejvhodnějšího pojištění.</p><ul><li><b>Analýza rizik:</b> Posouzení potřeb klienta a identifikace možných rizik.</li><li><b>Výběr nejvhodnějšího pojištění:</b> Porovnání nabídek různých pojišťoven.</li><li><b>Sjednání pojistných smluv:</b> Pomoc s administrativou a správným nastavením pojistky.</li><li><b>Správa a aktualizace pojištění:</b> Kontrola platnosti a výhodnosti sjednaných pojistek.</li><li><b>Asistence při pojistných událostech:</b> Pomoc s hlášením škod a komunikací s pojišťovnou.</li><li><b>Poradenství:</b> Konzultace v oblasti pojištění a rizikového managementu.</li></ul>"
-    },
-   {
-    "question": "Je vzhledem k zákazu souběhu činnosti pojišťovacího agenta a pojišťovacího makléře možné, aby samostatný zprostředkovatel (SZ) likvidoval pojistnou událost nebo asistoval zákazníkovi při uplatnění práv z pojištění, které sjednal? Nejde o střet zájmů?",
-    "answer": "<p><b>SZ může být nápomocen při uplatňování práv z pojištění a o porušení povinností podle ZDPZ se nejedná, ledaže SZ jednal při sjednání pojištění jako pojišťovací agent a při uplatňování práv z pojištění (které není likvidací v pravém slova smyslu) pomáhá jako pojišťovací makléř.</b></p> \
-    
-    <ul> \
-        <li><b>Pokud SZ zprostředkoval pojištění jako pojišťovací makléř, ale likvidaci provádí pro pojišťovnu v režimu živnostenského zákona, jde o střet zájmů, který je třeba vyloučit.</b></li> \
-        <li><b>Likvidace pojistné události</b> tak, jak byla dosud vymezena, tzn. šetření nutné ke zjištění rozsahu povinnosti plnit ze sjednaného pojištění, prováděné jménem a na účet pojišťovny, není pojmově součástí zprostředkování pojištění, jak vyplývá i z čl. 2 (2) (b) směrnice IDD.</li> \
-        <li>ZDPZ dereguloval agendu samostatných likvidátorů pojistných událostí tím, že je vyňal z oblasti zprostředkování pojištění a podřadil pod režim živnostenského zákona (zákon č. 455/1991 Sb., v platném znění). Na druhou stranu pomoc poskytovaná zákazníkovi při uplatňování těch nároků z pojištění, které souvisí s pojistnou událostí, pod zprostředkování pojištění spadá.</li> \
-        <li>V takovém případě jde o pomoc při správě pojištění a při uplatňování práv z pojištění ve smyslu § 2 písm. e) bodu 5. ZDPZ (a čl. 2 (1) bod (1) směrnice IDD).</li> \
-        <li><b>Pokud tedy SZ jednal při sjednání pojištění v roli pojišťovacího makléře a ve stejné roli je zákazníkovi nápomocen při uplatnění práv z něho podle § 2 písm. e) bodu 5. ZDPZ, o střet zájmů nejde.</b></li> \
-        <li>Pokud SZ sjednal pojištění jako pojišťovací agent a v rámci svého živnostenského oprávnění provádí pro pojišťovnu likvidaci pojistné události, nejde o porušení zákazu souběhu makléřské a agentské činnosti podle § 76 ZDPZ.</li> \
-        <li>Nicméně může jít o střet zájmů, který je třeba řídit (např. zavedením nezávislé kontroly takové likvidace) v souladu s § 6 ZPoj (pro pojišťovnu) a § 48 ZDPZ (pro SZ).</li> \
-        <li>Pokud má tento střet zájmů dopad na zákazníka a jde o rezervotvorné pojištění, pak řízení střetu zájmů zejména s ohledem na čl. 3 a násl. nařízení č. 2017/2359 zahrnuje také v konkrétním případě při naplnění dalších podmínek povinnost informovat zákazníka o něm a zastoupení pojišťovny odmítnout.</li> \
-    </ul> \
-    
-    <p><b>Ve smyslu § 76 ZDPZ</b> samostatný zprostředkovatel nesmí zprostředkovávat jednotlivé pojištění zároveň jako pojišťovací agent a pojišťovací makléř. O takové porušení by se jednalo také tehdy, kdy by SZ zprostředkovával pojištění pro pojišťovnu jako pojišťovací agent, a zároveň pomáhal zákazníkovi při uplatňování nároků z něj v roli pojišťovacího makléře.</p> \
-    
-    <p><b>Pokud by SZ zprostředkoval pojištění jako pojišťovací makléř, ale pak by v rámci svého živnostenského oprávnění prováděl likvidaci pojistné události, jednalo by se o střet zájmů, který by pojišťovna s ohledem na obdobnou míru rizikovosti měla zcela vyloučit v souladu s požadavky § 6 ZPoj.</b></p>"
-},
-    {
-        "question": "Jak vám tento produkt zajistí finanční ochranu?",
-        "answer": "Klient požadoval finanční ochranu své rodiny v případě úmrtí.\n\nNa základě analýzy jeho příjmů, závazků a očekávaných výdajů byla doporučena pojistná částka [např. 2 000 000 Kč], která zajistí pokrytí životních nákladů rodiny po dobu pěti let."
+        "answer": "<p><b>Pojišťovací makléř nabízí široké spektrum služeb souvisejících s pojištěním a řízením rizik.</b></p><ul><li><b>Analýza rizik:</b> Posouzení potřeb klienta a identifikace možných rizik.</li><li><b>Výběr nejvhodnějšího pojištění:</b> Porovnání nabídek různých pojišťoven.</li><li><b>Sjednání pojistných smluv:</b> Pomoc s administrativou a správným nastavením pojistky.</li><li><b>Správa a aktualizace pojištění:</b> Kontrola platnosti a výhodnosti sjednaných pojistek.</li><li><b>Asistence při pojistných událostech:</b> Pomoc s hlášením škod a komunikací s pojišťovnou.</li><li><b>Poradenství:</b> Konzultace v oblasti pojištění a rizikového managementu.</li></ul>"
     },
     {
-        "question": "Je pojištění nastavitelné podle potřeb klienta?",
-        "answer": "Pojištění bylo doporučeno na základě požadavků klienta uvedených v tabulce záznamu.\n\nKlient požadoval [hlavní požadavek], doporučili jsme variantu s [důvod doporučení], a nakonec byla sjednána možnost s [konkrétní parametry sjednaného produktu]."
+        "question": "Je vzhledem k zákazu souběhu činnosti pojišťovacího agenta a pojišťovacího makléře možné, aby samostatný zprostředkovatel (SZ) likvidoval pojistnou událost nebo asistoval zákazníkovi při uplatnění práv z pojištění, které sjednal? Nejde o střet zájmů?",
+        "answer": "<p><b>SZ může být nápomocen při uplatňování práv z pojištění a o porušení povinností podle ZDPZ se nejedná, ledaže SZ jednal při sjednání pojištění jako pojišťovací agent a při uplatňování práv z pojištění (které není likvidací v pravém slova smyslu) pomáhá jako pojišťovací makléř. Pokud SZ zprostředkoval pojištění jako pojišťovací makléř, ale likvidaci provádí pro pojišťovnu v režimu živnostenského zákona, jde o střet zájmů, který je třeba vyloučit.</b></p> <ul><li>Pokud SZ zprostředkoval pojištění jako pojišťovací makléř, ale likvidaci provádí pro pojišťovnu v režimu živnostenského zákona, jde o střet zájmů.</li><li>Pokud SZ sjednal pojištění jako pojišťovací agent a v rámci svého živnostenského oprávnění provádí pro pojišťovnu likvidaci pojistné události, nejde o porušení zákona.</li></ul>"
     },
     {
-        "question": "Vyhovuje vám tento produkt?",
-        "answer": "Produkt splňuje požadavky a cíle klienta na pojistné krytí.\n\nZahrnuje klíčová rizika, odpovídající limity pojistného plnění a cenovou dostupnost pro klienta.\n\nKlientovi byly rovněž vysvětleny podmínky pojistného plnění, výluky a možnosti rozšíření pojistné ochrany."
+        "question": "Nebude makléřská pojišťovací společnost ve střetu se ZDPZ při správě pojištění, pokud tuto činnost provádí její mateřská společnost?",
+        "answer": "<p>Správa pojištění dceřinou makléřskou společností, kterou provádí její mateřská společnost, nesmí porušovat § 47 a § 76 ZDPZ.</p><ul><li>Pokud mateřská společnost poskytuje pouze outsourcing a nepůsobí zároveň jako agent i makléř, nejde o střet zájmů.</li><li>Pokud však zastupuje zákazníka i pojišťovnu, dochází k rozporu se zákonem.</li></ul>"
     }
 ]

@@ -13,21 +13,22 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px; /* Menší mezera mezi logem a nadpisem */
+    gap: 15px; /* Odpovídá druhé aplikaci */
     margin-top: 20px;
+    height: 80px; /* Přidáno pro rovnoměrné zarovnání */
 }
 
 /* Logo */
 .logo {
-    width: 400px; /* Správná velikost loga */
+    width: 180px;
     height: auto;
     display: block;
-    margin-bottom: -10px; /* Posunutí dolů, aby bylo zarovnané s tlačítkem */
+    align-self: center; /* Perfektní vertikální zarovnání */
 }
 
-/* Nadpis - FAQ tlačítko */
+/* Nadpis (tlačítko FAQ) */
 .faq-header {
-    background-color: #007A78; /* Petrolejová barva */
+    background-color: #007A78;
     color: white;
     font-size: 28px;
     font-weight: bold;
@@ -35,12 +36,13 @@ body {
     border-radius: 10px;
     display: inline-block;
     max-width: 600px;
-    margin-top: 5px; /* Posunutí tlačítka nahoru pro zarovnání */
+    min-width: 280px; /* Přidáno pro konzistentní velikost */
+    text-align: center;
 }
 
 /* Otázky - oranžové boxy */
 .faq-item {
-    background: #FF9800; /* Oranžová barva */
+    background: #FF9800;
     margin: 15px auto;
     padding: 20px;
     border-radius: 8px;
@@ -74,7 +76,7 @@ body {
     display: none;
 }
 
-/* Formulář pro přidání nové otázky - lepší zarovnání */
+/* Formulář pro přidání nové otázky */
 #new-question, #new-answer {
     width: 250px;
     padding: 8px;
@@ -116,13 +118,14 @@ body {
 /* Responzivní úprava pro mobilní zařízení */
 @media (max-width: 768px) {
     .faq-header-container {
-        flex-direction: column; /* Logo se na mobilu zobrazí nad FAQ tlačítkem */
+        flex-direction: column;
         text-align: center;
+        height: auto; /* Na mobilu výšku přizpůsobíme obsahu */
     }
 
     .logo {
-        width: 150px; /* Mírně menší logo na mobilu */
-        margin-bottom: 10px; /* Přidání mezery pod logem */
+        width: 150px;
+        margin-bottom: 10px;
     }
 
     .faq-header {

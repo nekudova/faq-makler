@@ -11,19 +11,19 @@ body {
 .faq-header-container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap; /* Zabraňuje přetékání na malých obrazovkách */
-    gap: 20px;
+    justify-content: center; /* Vycentrování */
+    flex-wrap: wrap;
+    gap: 15px; /* Menší mezera mezi logem a nadpisem */
     margin-top: 20px;
 }
 
 /* Logo */
 .logo {
-    width: 250px; /* Upravená velikost loga pro lepší vzhled */
+    width: 180px; /* Přizpůsobení velikosti */
     height: auto;
-    display: block; /* Zajišťuje správné zarovnání */
+    display: block;
+    margin: 0; /* Odstranění případného posunu */
 }
-
 /* Nadpis */
 .faq-header {
     background-color: #007A78; /* Petrolejová barva */

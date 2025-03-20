@@ -12,33 +12,33 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px; /* Mezery mezi logem a nadpisem */
+    flex-wrap: wrap; /* Zabraňuje přetékání na malých obrazovkách */
+    gap: 20px;
     margin-top: 20px;
 }
 
 /* Logo */
 .logo {
-    width: 150px; /* Nastavení velikosti loga */
+    width: 150px; /* Upravená velikost loga pro lepší vzhled */
     height: auto;
-    margin-right: 20px; /* Přidání mezery mezi logem a tlačítkem */
-    vertical-align: middle; /* Lepší zarovnání */
+    display: block; /* Zajišťuje správné zarovnání */
 }
 
 /* Nadpis */
 .faq-header {
     background-color: #007A78; /* Petrolejová barva */
-    color: white; /* Bílý text */
+    color: white;
     font-size: 28px;
     font-weight: bold;
-    padding: 20px 50px; /* Větší šířka tlačítka */
+    padding: 15px 30px;
     border-radius: 10px;
     display: inline-block;
-    text-align: center;
+    max-width: 600px;
 }
 
-/* Otázky - oranžový rámeček */
+/* Otázky - oranžové boxy */
 .faq-item {
-    background: #FF8C00; /* Sytější oranžová */
+    background: #FF9800; /* Oranžová barva */
     margin: 15px auto;
     padding: 20px;
     border-radius: 8px;
@@ -54,7 +54,6 @@ body {
     font-weight: bold;
     color: white;
     font-size: 22px;
-    cursor: pointer;
 }
 
 /* Odpověď - černý text na bílém pozadí */
@@ -85,8 +84,55 @@ body {
 
 /* Tlačítko Přidat - lepší styl */
 #add-question-btn {
-    background-color: #FFA500; /* Oranžová */
+    background-color: #FF9800;
     color: white;
-    padding: 10px 15
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
 
+/* Zvětšení ikony v tlačítku */
+#add-question-btn::before {
+    content: "➕";
+    font-size: 18px;
+}
 
+/* Zarovnání tlačítek přihlášení a odhlášení */
+.login-btn, .logout-btn {
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* Responzivní úpravy pro mobilní zařízení */
+@media (max-width: 768px) {
+    .faq-header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        width: 120px; /* Menší logo na mobilních zařízeních */
+    }
+
+    .faq-header {
+        font-size: 24px;
+        width: 90%;
+        padding: 18px;
+    }
+
+    .faq-question {
+        font-size: 20px;
+    }
+
+    .faq-answer {
+        font-size: 18px;
+    }
+}
